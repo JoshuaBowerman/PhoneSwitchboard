@@ -1,0 +1,70 @@
+﻿<Window x:Class="PhoneSwitchboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneSwitchboard"
+        mc:Ignorable="d"
+        Title="Rotary Switchboard Controls" Height="289.039" Width="859.818" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+    <Grid Margin="0,0,0.143,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="10,10,10.143,0" VerticalAlignment="Top" Height="132">
+            <Grid Margin="-0.143,-0.143,0,-0.714" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="Label_lines" Content="Lines" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37"/>
+                <Rectangle x:Name="Border_1" Fill="#FFF4F4F5" Height="31" Margin="10,25,10.286,0" Stroke="Black" VerticalAlignment="Top"/>
+                <Label x:Name="Label_line1" Content="Line 1" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" Height="31" Width="43" BorderThickness="0,0,1,0"/>
+                <TextBox x:Name="Data_dial1" HorizontalAlignment="Left" Height="23" Margin="108,30,0,0" TextWrapping="Wrap" Text="(519) 671 2048" VerticalAlignment="Top" Width="113" FontFamily="Source Code Pro"/>
+                <Label x:Name="Label_dial1" Content="Dialing" HorizontalAlignment="Left" Margin="61,27,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="Label_a1" Content="A" HorizontalAlignment="Left" Margin="227,27,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="Label_b1" Content="B" HorizontalAlignment="Left" Margin="279,27,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.044,0.312"/>
+                <TextBox x:Name="Data_circuitb1" HorizontalAlignment="Left" Height="23" Margin="301,30,0,0" TextWrapping="Wrap" Text="--" VerticalAlignment="Top" Width="22" FontFamily="Source Code Pro"/>
+                <TextBox x:Name="Data_circuita1" HorizontalAlignment="Left" Height="23" Margin="250,30,0,0" TextWrapping="Wrap" Text="--" VerticalAlignment="Top" Width="22" FontFamily="Source Code Pro"/>
+                <TextBox x:Name="Data_status1" HorizontalAlignment="Right" Height="23" Margin="0,29,16.857,0" TextWrapping="Wrap" Text="Waiting" VerticalAlignment="Top" Width="120" FontFamily="Source Code Pro"/>
+                <Label x:Name="label_status1" Content="Status" HorizontalAlignment="Right" Margin="0,26,141.857,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="Data_time1" HorizontalAlignment="Right" Height="23" Margin="0,29,193.857,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" Width="42" FontFamily="Source Code Pro"/>
+                <Label x:Name="Label_time1" Content="Time Open" HorizontalAlignment="Right" Margin="0,26,240.857,0" VerticalAlignment="Top"/>
+                <Rectangle x:Name="Border_2" Fill="#FFF4F4F5" Height="31" Margin="10,59,10.286,0" Stroke="Black" VerticalAlignment="Top"/>
+                <Label x:Name="Label_line2" Content="Line 2" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Height="31" Width="43" BorderThickness="0,0,1,0"/>
+                <TextBox x:Name="Data_dial2" HorizontalAlignment="Left" Height="23" Margin="108,64,0,0" TextWrapping="Wrap" Text="(519) 671 2048" VerticalAlignment="Top" Width="113" FontFamily="Source Code Pro"/>
+                <Label x:Name="Label_dial2" Content="Dialing" HorizontalAlignment="Left" Margin="61,61,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="Label_a2" Content="A" HorizontalAlignment="Left" Margin="227,61,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="Label_b2" Content="B" HorizontalAlignment="Left" Margin="279,61,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.044,0.312"/>
+                <TextBox x:Name="Data_circuitb2" HorizontalAlignment="Left" Height="23" Margin="301,64,0,0" TextWrapping="Wrap" Text="--" VerticalAlignment="Top" Width="22" FontFamily="Source Code Pro"/>
+                <TextBox x:Name="Data_circuita2" HorizontalAlignment="Left" Height="23" Margin="250,64,0,0" TextWrapping="Wrap" Text="--" VerticalAlignment="Top" Width="22" FontFamily="Source Code Pro"/>
+                <TextBox x:Name="Data_status2" HorizontalAlignment="Right" Height="23" Margin="0,63,15.857,0" TextWrapping="Wrap" Text="Waiting" VerticalAlignment="Top" Width="120" FontFamily="Source Code Pro"/>
+                <Label x:Name="label_status2" Content="Status" HorizontalAlignment="Right" Margin="0,60,141.857,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="Data_time2" HorizontalAlignment="Right" Height="23" Margin="0,63,193.857,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" Width="42" FontFamily="Source Code Pro"/>
+                <Label x:Name="Label_time2" Content="Time Open" HorizontalAlignment="Right" Margin="0,60,240.857,0" VerticalAlignment="Top"/>
+                <Rectangle x:Name="Border_3" Fill="#FFF4F4F5" Height="31" Margin="10,93,10.286,0" Stroke="Black" VerticalAlignment="Top"/>
+                <Label x:Name="Label_line3" Content="Line 3" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Height="31" Width="43" BorderThickness="0,0,1,0"/>
+                <TextBox x:Name="Data_dial3" HorizontalAlignment="Left" Height="23" Margin="108,98,0,0" TextWrapping="Wrap" Text="(519) 671 2048" VerticalAlignment="Top" Width="113" FontFamily="Source Code Pro"/>
+                <Label x:Name="Label_dial3" Content="Dialing" HorizontalAlignment="Left" Margin="61,95,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="Label_a3" Content="A" HorizontalAlignment="Left" Margin="227,95,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="Label_b3" Content="B" HorizontalAlignment="Left" Margin="279,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.044,0.312"/>
+                <TextBox x:Name="Data_circuitb3" HorizontalAlignment="Left" Height="23" Margin="301,98,0,0" TextWrapping="Wrap" Text="--" VerticalAlignment="Top" Width="22" FontFamily="Source Code Pro"/>
+                <TextBox x:Name="Data_circuita3" HorizontalAlignment="Left" Height="23" Margin="250,98,0,0" TextWrapping="Wrap" Text="--" VerticalAlignment="Top" Width="22" FontFamily="Source Code Pro"/>
+                <TextBox x:Name="Data_status3" HorizontalAlignment="Right" Height="23" Margin="0,97,15.857,0" TextWrapping="Wrap" Text="Waiting" VerticalAlignment="Top" Width="120" FontFamily="Source Code Pro"/>
+                <Label x:Name="label_status3" Content="Status" HorizontalAlignment="Right" Margin="0,94,141.857,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="Data_time3" HorizontalAlignment="Right" Height="23" Margin="0,97,193.857,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" Width="42" FontFamily="Source Code Pro"/>
+                <Label x:Name="Label_time3" Content="Time Open" HorizontalAlignment="Right" Margin="0,94,240.857,0" VerticalAlignment="Top"/>
+                <Button x:Name="Button_close1" Content="Close" HorizontalAlignment="Right" Margin="0,30,308.857,0" VerticalAlignment="Top" Width="75"/>
+                <Button x:Name="Button_close2" Content="Close" HorizontalAlignment="Right" Margin="0,64,308.857,0" VerticalAlignment="Top" Width="75"/>
+                <Button x:Name="Button_close3" Content="Close" HorizontalAlignment="Right" Margin="0,98,308.857,0" VerticalAlignment="Top" Width="75"/>
+            </Grid>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Height="100" Margin="10,147,10.143,0" VerticalAlignment="Top">
+            <Grid>
+                <Button x:Name="button" Content="Browse" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="75"/>
+                <Label x:Name="label" Content="Busy Circuit" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top" Width="75"/>
+                <Button x:Name="button1" Content="Browse" HorizontalAlignment="Left" Margin="101,69,0,0" VerticalAlignment="Top" Width="75"/>
+                <Label x:Name="label1" Content="Wrong Number" HorizontalAlignment="Left" Margin="90,43,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </Border>
+
+    </Grid>
+</Window>
